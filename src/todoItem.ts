@@ -3,7 +3,9 @@ export class TodoItem {
 		public id: number,
 		public task: string,
 		public complete: boolean = false
-	) {}
+	) {
+		// no code required because of typescripts concise code syntax
+	}
 
 	printDetails(): void {
 		console.log(
